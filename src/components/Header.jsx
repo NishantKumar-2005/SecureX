@@ -2,14 +2,18 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Search from './Search';
 
+
+
+
 const Header = () => {
   return (
+    <>
     <nav className="bg-white border-gray-200 dark:bg-gray-900 rounded-b-lg">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            CryptoGuru
+          SecureXpert
           </span>
         </Link>
         <div className="flex md:order-2">
@@ -64,23 +68,22 @@ const Header = () => {
                 Home
               </Link>
             </li>
+            
             <li>
-              <Link
-                to="/exchanges"
-                className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500"
-              >
-                Exchanges
+              <Link to="/service/portscan" className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500">
+                Services
               </Link>
             </li>
             <li>
-              <Link to="/coins" className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500">
-                Coins
+              <Link to="/about" className="text-gray-900 hover:text-blue-700 dark:text-white dark:hover:text-blue-500">
+                About
               </Link>
-            </li>
+              </li>
           </ul>
         </div>
       </div>
     </nav>
+    </>
   );
 };
 

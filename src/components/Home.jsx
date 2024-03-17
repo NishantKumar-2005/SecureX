@@ -1,24 +1,26 @@
 import React from "react";
 import Newslatter from './NewsLatter';
+import BG from '../assets/img.svg'
+import { background } from "@chakra-ui/react";
 const HeroSection = () => {
   return (
     <div className="max-w-[85rem] mx-auto px-4 sm:px-4 mt-16 lg:px-10">
       <div className="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 md:items-center">
         <div>
           <h1 className="block text-3xl font-bold text-slate-800 sm:text-4xl lg:text-6xl lg:leading-tight ">
-            Start your journey with{" "}
+            Enhance your security with{" "}
             <span className="text-blue-600 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
-              CryptoGuru
+              SecureXpert
             </span>
           </h1>
           <p className="mt-3 text-lg text-gray-800 dark:text-gray-400">
-          Explore the future of finance with our crypto project, your go-to destination for discovering the latest and trending cryptocurrencies.
+          SecureXpert: Your one-stop solution for cyber security. We scan devices, identify vulnerabilities, offer expert remediation, and provide educational resources. Plus, engage in ethical hacking contests for enhanced protection.
           </p>
 
           {/* Buttons */}
           <div className="mt-7 grid gap-3 w-full sm:inline-flex">
             <a
-              href="/trending"
+              href="/service/portscan"
               className="py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
             >
               Get started
@@ -110,7 +112,7 @@ const HeroSection = () => {
               height: "calc(100% + 20px)",
               margin: "-20px",
             }}
-            src="./heroSection.png"
+            src={BG}
             alt="Product illustration"
           />
         </div>

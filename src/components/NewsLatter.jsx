@@ -22,7 +22,7 @@ export default function Example() {
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Subscribe to our newsletter.</h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
-            Don't miss out on the next big thing in the crypto space. Join us on the journey to financial innovation!
+            Don't miss out on the next big thing in the cyber space. Join us on the journey to cyber innovation!
             </p>
             <div className="mt-6 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
@@ -52,7 +52,7 @@ export default function Example() {
               </div>
               <dt className="mt-4 font-semibold text-white">Weekly articles</dt>
               <dd className="mt-2 leading-7 text-gray-400">
-              Dive into insightful content covering the latest trends, market analysis, and crypto innovations. Stay informed and empowered on your crypto journey.
+              Dive into insightful content covering the latest trends and cyber innovations. Stay informed and empowered on your cyber journey.
               </dd>
             </div>
             <div className="flex flex-col items-start">
